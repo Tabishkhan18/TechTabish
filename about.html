@@ -19,6 +19,7 @@
       color: white;
       border-color: #6366f1;
       box-shadow: 0 0.5rem 1.125rem -0.5rem #ffffff !important;
+      transition: all .07s ease-in-out .07s;
 
 
     }
@@ -28,53 +29,171 @@
       background: #4044ee;
       border-color: #4044ee;
       box-shadow: 0 0.5rem 1.125rem -0.5rem rgba(99, 102, 241, .9) !important;
-
+      transform: scale(1.05);
     }
-    li.text-secondary{
-      font-size: 17px !important;
 
-    } 
-    
-    a.text-secondary{
+    li.text-secondary {
       font-size: 17px !important;
     }
-    a.text-secondary:hover{
+
+    a.text-secondary {
+      font-size: 17px !important;
+    }
+
+    a.text-secondary:hover {
       color: #4044ee !important;
     }
-    #html{
+
+    #html {
       background-color: #e44d26 !important;
+      animation-name: html;
+      animation-duration: 1.5s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-out;
     }
-    #css{
-      background-color: #2062af!important;
-      
+    @keyframes html {
+      from {
+        width: 0%;
+      }
+      to {
+        width: 95%;
+      }
     }
-    #js{
-      background-color: #f7df1e!important;
 
+    #css {
+      background-color: #2062af !important;
+      animation-name: css;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-out;
     }
-    #c{
-      background-color: #5c6bc0!important;
-
+    @keyframes css {
+      from {
+        width: 0%;
+      }
+      to {
+        width: 90%;
+      }
     }
-    #cpp{
-      background-color: #0180cd!important;
 
+    #js {
+      background-color: #f7df1e !important;
+      animation-name: js;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-out;
     }
-    #node{
-      background-color: #80bd01!important;
-
+    @keyframes js {
+      from {
+        width: 0%;
+      }
+      to {
+        width: 70%;
+      }
     }
-    #bootstrap{
-      background-color: #7511f6!important;
-
+    #c {
+      background-color: #5c6bc0 !important;
+      animation-name: c;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-out;
     }
-    #github{
-      background-color: #070809!important;
-
+    @keyframes c {
+      from {
+        width: 0%;
+      }
+      to {
+        width: 95%;
+      }
     }
-    #mongo{
-      background-color: #82d33d!important;
 
+    #cpp {
+      background-color: #0180cd !important;
+      animation-name: cpp;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-out;
+    }
+    @keyframes cpp {
+      from {
+        width: 0%;
+      }
+      to {
+        width: 85%;
+      }
+    }
+
+    #node {
+      background-color: #80bd01 !important;
+      animation-name: node;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-out;
+    }
+    @keyframes node{
+      from {
+        width: 0%;
+      }
+      to {
+        width: 30%;
+      }
+    }
+
+    #bootstrap {
+      background-color: #7511f6 !important;
+      animation-name: bootstrap;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-out;
+    }
+    @keyframes bootstrap {
+      from {
+        width: 0%;
+      }
+      to {
+        width: 75%;
+      }
+    }
+
+    #github {
+      background-color: #070809 !important;
+      animation-name: github;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-out;
+    }
+    @keyframes github {
+      from {
+        width: 0%;
+      }
+      to {
+        width: 50%;
+      }
+    }
+
+    #mongo {
+      background-color: #82d33d !important;
+      animation-name: mongo;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-out;
+    }
+    @keyframes mongo {
+      from {
+        width: 0%;
+      }
+      to {
+        width: 20%;
+      }
     }
   </style>
 
