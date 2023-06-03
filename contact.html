@@ -14,6 +14,48 @@
     <link rel="icon" href="/TechTabish/images/favicon.jpg">
   
   <style>
+    /* ------------------------- */
+    @media (min-width:992px) {
+      .mobile-nav {
+        display: none;
+      }
+    }
+
+    @media (max-width:992px) {
+      .pc-nav {
+        display: none;
+      }
+    }
+
+    :root {
+      --gray: #333333;
+
+    }
+
+    .hamburger {
+      border: none;
+      --bs-navbar-color: rgb(33 37 41) !important;
+    }
+
+    .brand-border {
+      border: 1px solid var(--gray);
+      transition: all .001s ease-in-out .001s;
+    }
+
+    .brand-border:hover {
+      background: var(--gray);
+      color: white;
+    }
+
+    .navbar-toggler-icon {
+      transition: all .001s ease-in-out .001s;
+    }
+
+    .navbar-toggler-icon:active {
+      transform: skew(45deg);
+    }
+
+    /* ------------------------ */
     .form-signin {
       max-width: 330px;
       padding: 15px;
@@ -44,7 +86,7 @@
 
 <body class="text-center" style="background-color: #f8f9fa;">
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-dark" data-bs-theme="dark">
+<!--   <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-dark" data-bs-theme="dark">
     <div class="container-fluid">
       <a class="navbar-brand mb-0 h1" href="/TechTabish/">TechTabish <svg xmlns="http://www.w3.org/2000/svg" width="25"
           height="25" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
@@ -105,6 +147,154 @@
       </div>
     </div>
   </nav>
+ -->
+  
+  
+  
+  <!-- ----------------------------------- -->
+  <!-- mobile navbar -->
+
+  <div class="mobile-nav">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand mb-0 h1" href="/TechTabish/">TechTabish <svg xmlns="http://www.w3.org/2000/svg"
+            width="25" height="25" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+            <path
+              d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
+          </svg></a>
+        <button class="navbar-toggler hamburger" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title brand-logo" id="offcanvasDarkNavbarLabel">TechTabish <svg
+                xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-code-slash"
+                viewBox="0 0 16 16">
+                <path
+                  d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
+              </svg></h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/TechTabish/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/TechTabish/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/TechTabish/contact.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Work
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Stark Industries</a></li>
+                  <li><a class="dropdown-item" href="#">MyOnlineMeal</a></li>
+                  <li><a class="dropdown-item" href="#">Dance Website</a></li>
+                  <li><a class="dropdown-item" href="#">Gym Login page</a></li>
+
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Blog
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="/TechTabish/blog.html">Web Deplopment <span
+                        class="badge rounded-pill text-bg-success">New</span></a></li>
+                  <li><a class="dropdown-item" href="/TechTabish/blog.html">Machine Learning</a></li>
+                  <li><a class="dropdown-item" href="/TechTabish/blog.html">Artificial Intelligence</a></li>
+                  <li>
+                  <li><a class="dropdown-item" href="/TechTabish/blog.html">Data Science</a></li>
+                  <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="/TechTabish/blog.html">More...</a></li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+
+
+  <!-- pc navbar -->
+  <div class="pc-nav">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand mb-0 h1" href="/TechTabish/">TechTabish <svg xmlns="http://www.w3.org/2000/svg"
+            width="25" height="25" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+            <path
+              d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
+          </svg></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/TechTabish/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/TechTabish/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/TechTabish/contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Work
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#">Stark Industries</a></li>
+                <li><a class="dropdown-item" href="#">MyOnlineMeal</a></li>
+                <li><a class="dropdown-item" href="#">Dance Website</a></li>
+                <li><a class="dropdown-item" href="#">Gym Login page</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="/TechTabish/blog.html">Web Deplopment <span
+                      class="badge rounded-pill text-bg-success">New</span></a></li>
+                <li><a class="dropdown-item" href="/TechTabish/blog.html">Machine Learning</a></li>
+                <li><a class="dropdown-item" href="/TechTabish/blog.html">Artificial Intelligence</a></li>
+                <li>
+                <li><a class="dropdown-item" href="/TechTabish/blog.html">Data Science</a></li>
+                <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="/TechTabish/blog.html">More...</a></li>
+          </ul>
+          </ul>
+
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- ----------------------------------- -->
 
 
   <hr class="featurette-divider mt-5 mb-5">
