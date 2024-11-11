@@ -28,7 +28,7 @@ const Projects = () => {
                                 </div>
                             </div>
                             <div className="aboutimage md:py-10 md:pe-5">
-                                <img src="public/spotify.png" alt="image" className='w-[50rem] rounded-lg' />
+                                <img src="./spotify.png" alt="image" className='w-[50rem] rounded-lg' />
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ const Projects = () => {
                     <div className='projectcard rounded-xl bg-neutral-800'>
                         <div className='flex md:flex-row flex-col-reverse items-center justify-around'>
                             <div className="aboutimage md:py-10 md:pe-5">
-                                <img src="public/todo.png" alt="image" className='w-[50rem] rounded-lg' />
+                                <img src="./todo.png" alt="image" className='w-[50rem] rounded-lg' />
                             </div>
                             <div className="skills p-5 md:ps-5 md:w-1/4">
                                 <h1 className="heading pb-5 uppercase text-white font-semibold text-xl">
@@ -75,7 +75,7 @@ const Projects = () => {
                                 </div>
                             </div>
                             <div className="aboutimage md:py-10 md:pe-5">
-                                <img src="public/calculator.png" alt="image" className='w-[50rem] rounded-lg' />
+                                <img src="./calculator.png" alt="image" className='w-[50rem] rounded-lg' />
                             </div>
                         </div>
                     </div>
