@@ -5,7 +5,7 @@ const About = () => {
     <div className='about bg-neutral-900 md:px-28 px-10 md:py-40 py-10' id='about'>
       <div className='flex flex-col md:flex-row items-center'>
         <div className="skills md:w-2/3">
-          <h1 className="heading uppercase text-white font-semibold text-xl py-10">
+          <h1 className="heading uppercase text-white font-semibold text-xl pb-10">
             My Story
           </h1>
           <h1 className="pt-5 text-neutral-500 md:pe-52 leading-relaxed text-lg">
@@ -16,7 +16,7 @@ const About = () => {
           </h1>
         </div>
         <div className="aboutimage md:w-1/3 py-20 md:py-0" >
-          <img src="./tabish3.jpg" alt="image" className='w-96 hover:scale-110 rounded-3xl transition ease-in-out duration-300 ' />
+          <img src="./tabish3.jpg" alt="image" className='w-96 grayscale hover:grayscale-[25%] hover:scale-110 rounded-3xl transition ease-in-out duration-300 ' />
         </div>
       </div>
       <h1 className="md:pt-32 text-center leading-loose text-white font-thin text-xl">
