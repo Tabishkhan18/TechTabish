@@ -5,7 +5,7 @@ const Projects = () => {
         <div id='projects'>
             <div className="project bg-neutral-50 lg:py-36 py-20">
                 <h1 className="heading  text-center lg:pb-36 pb-20 uppercase text-neutral-800 font-semibold text-xl">
-                    My Projects
+                    Projects
                 </h1>
 
                 <div className="projectCards flex flex-col lg:gap-36 gap-10 lg:px-36 px-5">
