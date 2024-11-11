@@ -20,7 +20,7 @@ const About = () => {
         </div>
       </div>
       <h1 className="md:pt-32 text-center leading-loose text-white font-thin text-xl">
-        &ldquo;Coding is like humor. when you have to explain it, it's bad.&rdquo; <span className='text-neutral-500'>-&lt;/Cory House &gt;</span>
+        &ldquo;Coding is like humor. When you have to explain it, it's bad.&rdquo; <span className='text-neutral-500'>-&lt;/Cory House &gt;</span>
       </h1>
     </div>
   )
