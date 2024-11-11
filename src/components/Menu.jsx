@@ -38,7 +38,7 @@ const Menu = () => {
             <li className="my-2 w-1/2 font-semibold text-md text-neutral-400 hover:text-white transition ease-in-out duration-200 rounded-full px-2 py-2 border border-neutral-800  hover:border-white cursor-pointer"><Link to='contact' spy={true} smooth={true} offset={-100} duration={500} >Contact</Link></li>
           </ul>
         </div>
-        <h1 className='text-neutral-500 mt-96 text-xs font-semibold'>&copy; TechTabish 2024</h1>
+        <h1 className='text-neutral-500 mt-80 text-xs font-semibold'>&copy; TechTabish 2024</h1>
       </div>
 
     </div>
