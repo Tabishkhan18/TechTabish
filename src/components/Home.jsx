@@ -37,7 +37,7 @@ const Home = () => {
                         <h3 className='text-white lg:text-4xl text-xl uppercase'>{currentHeading}<span className="blinking-cursor  lg:text-5xl text-3xl">|</span></h3>
                     </div>
                     <div className="buttons flex gap-5 lg:gap-10">
-                        <button className='font-semibold transition ease-in-out duration-300 lg:px-5 px-3 py-2 text-white border border-white hover:text-neutral-800 hover:bg-white rounded-full '>Download Resume</button>
+                        <button className='font-semibold transition ease-in-out duration-300 lg:px-5 px-3 py-2 text-white border border-white hover:text-neutral-800 hover:bg-white rounded-full '><a href="./Tabish Khan Resume.pdf" download>Download Resume</a></button>
                         <button className='font-semibold transition ease-in-out duration-300 lg:px-5 px-3 py-2 text-neutral-800 border border-neutral-800 bg-white hover:text-white hover:bg-neutral-800 hover:border-white rounded-full'><Link to='contact' spy={true} smooth={true} offset={-100} duration={500}>Contact Info</Link></button>
                     </div>
                 </div>
