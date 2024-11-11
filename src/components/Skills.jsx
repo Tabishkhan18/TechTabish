@@ -4,10 +4,10 @@ import SkillCard from './SkillCard'
 const Skills = () => {
     return (
         <div className='bg-neutral-50 flex justify-between md:p-20 p-7' id='skills'>
-            <div className="skillheading hidden md:flex w-1/2">
+            <div className="skillheading hidden lg:flex w-1/2">
                 <img src="./skills4.jpg" alt="image" className='w-[40rem] rounded-3xl grayscale-[50%]' />
             </div>
-            <div className="skills md:ps-28 md:w-1/2">
+            <div className="skills lg:ps-28 lg:w-1/2">
                 <h1 className="heading py-10 font-semibold text-xl">
                     MY SKILLS
                 </h1>
