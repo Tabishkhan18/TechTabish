@@ -11,8 +11,8 @@ const Projects = () => {
                 <div className="projectCards flex flex-col lg:gap-36 gap-10 lg:px-36 px-5">
 
                     <div className='projectcard rounded-xl bg-neutral-800'>
-                        <div className='flex lg:flex-row flex-col items-center justify-around'>
-                            <div className="skills p-5 lg:ps-5 lg:w-1/4">
+                        <div className='flex lg:flex-row flex-col lg:items-center justify-around'>
+                            <div className="skills p-10 lg:ps-5 lg:w-1/4">
                                 <h1 className="heading pb-5 uppercase text-white font-semibold text-xl">
                                     Spotify Clone
                                 </h1>
@@ -28,17 +28,17 @@ const Projects = () => {
                                 </div>
                             </div>
                             <div className="aboutimage lg:py-10 lg:pe-5">
-                                <img src="./spotify.png" alt="image" className='w-[50rem] rounded-lg' />
+                                <img src="./spotify.png" alt="image" className='lg:w-[50rem] rounded-lg' />
                             </div>
                         </div>
                     </div>
 
                     <div className='projectcard rounded-xl bg-neutral-800'>
-                        <div className='flex lg:flex-row flex-col-reverse items-center justify-around'>
-                            <div className="aboutimage lg:py-10 md::pe-5">
-                                <img src="./todo.png" alt="image" className='w-[50rem] rounded-lg' />
+                        <div className='flex lg:flex-row flex-col-reverse lg:items-center justify-around'>
+                            <div className="aboutimage lg:py-10 lg:pe-5">
+                                <img src="./todo.png" alt="image" className='lg:w-[50rem] rounded-lg' />
                             </div>
-                            <div className="skills p-5 lg:ps-5 lg:w-1/4">
+                            <div className="skills p-10 lg:ps-5 lg:w-1/4">
                                 <h1 className="heading pb-5 uppercase text-white font-semibold text-xl">
                                     Todo Manager
                                 </h1>
@@ -58,8 +58,8 @@ const Projects = () => {
                     </div>
 
                     <div className='projectcard rounded-xl bg-neutral-800'>
-                        <div className='flex lg:flex-row flex-col items-center justify-around'>
-                            <div className="skills p-5 lg:ps-5 lg:w-1/4">
+                        <div className='flex lg:flex-row flex-col lg:items-center justify-around'>
+                            <div className="skills p-10 lg:ps-5 lg:w-1/4">
                                 <h1 className="heading pb-5 uppercase text-white font-semibold text-xl">
                                     Calculator
                                 </h1>
@@ -75,7 +75,7 @@ const Projects = () => {
                                 </div>
                             </div>
                             <div className="aboutimage lg:py-10 lg:pe-5">
-                                <img src="./calculator.png" alt="image" className='w-[50rem] rounded-lg' />
+                                <img src="./calculator.png" alt="image" className='lg:w-[50rem] rounded-lg' />
                             </div>
                         </div>
                     </div>
