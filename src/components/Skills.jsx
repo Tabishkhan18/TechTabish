@@ -5,24 +5,24 @@ const Skills = () => {
     return (
         <div className='bg-neutral-50 flex justify-between md:p-20 p-7' id='skills'>
             <div className="skillheading hidden md:flex w-1/2">
-                <img src="../skills4.jpg" alt="image" className='w-[40rem] rounded-3xl' />
+                <img src="public/skills4.jpg" alt="image" className='w-[40rem] rounded-3xl' />
             </div>
             <div className="skills md:ps-28 md:w-1/2">
                 <h1 className="heading py-10 font-semibold text-xl">
                     MY SKILLS
                 </h1>
                 <div className="skillcards flex flex-wrap justify-between">
-                    <SkillCard skill="HTML" image="../html.png" />
-                    <SkillCard skill="CSS" image="../css.png" />
-                    <SkillCard skill="JavaScript" image="../js.png" />
-                    <SkillCard skill="React" image="../react.png" />
-                    <SkillCard skill="Tailwind" image="../tailwind.png" />
-                    <SkillCard skill="Bootstrap" image="../bootstrap.png" />
-                    <SkillCard skill="Node.js" image="../node.png" />
-                    <SkillCard skill="Express.js" image="../express.png" />
-                    <SkillCard skill="MongoDB" image="../mongo.png" />
-                    <SkillCard skill="Git" image="../git.png" />
-                    <SkillCard skill="GitHub" image="../github.png" />
+                    <SkillCard skill="HTML" image="public/html.png" />
+                    <SkillCard skill="CSS" image="public/css.png" />
+                    <SkillCard skill="JavaScript" image="public/js.png" />
+                    <SkillCard skill="React" image="public/react.png" />
+                    <SkillCard skill="Tailwind" image="public/tailwind.png" />
+                    <SkillCard skill="Bootstrap" image="public/bootstrap.png" />
+                    <SkillCard skill="Node.js" image="public/node.png" />
+                    <SkillCard skill="Express.js" image="public/express.png" />
+                    <SkillCard skill="MongoDB" image="public/mongo.png" />
+                    <SkillCard skill="Git" image="public/git.png" />
+                    <SkillCard skill="GitHub" image="public/github.png" />
                 </div>
                 <h1 className="pt-10 uppercase font-semibold md:text-md text-sm">
                     Also some bunch of ordinary skills:

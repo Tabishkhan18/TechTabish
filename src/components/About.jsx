@@ -16,7 +16,7 @@ const About = () => {
           </h1>
         </div>
         <div className="aboutimage md:w-1/3 py-20 md:py-0" >
-          <img src="../tabish3.jpg" alt="image" className='w-96 hover:scale-110 rounded-3xl transition ease-in-out duration-300 ' />
+          <img src="public/tabish3.jpg" alt="image" className='w-96 hover:scale-110 rounded-3xl transition ease-in-out duration-300 ' />
         </div>
       </div>
       <h1 className="md:pt-32 text-center leading-loose text-white font-thin text-xl">
