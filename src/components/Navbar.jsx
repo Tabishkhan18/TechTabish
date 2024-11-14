@@ -1,4 +1,5 @@
 import React from 'react'
+import { HiMiniCodeBracket } from "react-icons/hi2";
 import { Link } from 'react-scroll'
 import Menu from './Menu';
 
@@ -7,8 +8,8 @@ const Navbar = () => {
     return (
         <div>
             <nav className="navbar z-10 fixed top-0 right-0 left-0 flex justify-between items-center md:px-20 px-10 bg-neutral-800 h-16">
-                <div className="logo font-sans font-semibold text-xl text-white">
-                    TechTabish
+                <div className="logo flex gap-1 items-center font-sans font-semibold text-xl text-white">
+                <HiMiniCodeBracket style={{ fontSize: '1.75rem', fontWeight: 'bold' }}/>TechTabish
                 </div>
                 <div className="menu hidden md:flex">
                     <ul className='flex gap-5'>
