@@ -20,7 +20,7 @@ const Projects = () => {
                                     Html, Css, JavaScript, React and Tailwind
                                 </h1>
                                 <h1 className="pt-5 text-neutral-500 leading-relaxed text-sm">
-                                    This is a Spotify clone website. Created with responsive web designing techniques.
+                                    A fully responsive Spotify clone website built with React and styled using Tailwind CSS. This design closely replicates the original Spotify interface, showcasing advanced web design techniques for a seamless and visually appealing experience.
                                 </h1>
                                 <div className="buttons flex gap-5 py-10">
                                     <button className='font-semibold transition ease-in-out duration-300 px-5 py-2 text-white border border-white hover:text-neutral-800 hover:bg-white rounded-full'><a href="https://github.com/Tabishkhan18/SpotifyClone">Github</a></button>
@@ -46,7 +46,7 @@ const Projects = () => {
                                     Html, Css, JavaScript, React and Tailwind
                                 </h1>
                                 <h1 className="pt-5 text-neutral-500 leading-relaxed text-sm">
-                                    A Todo Manager is used to Create, Edit and Delete multiple tasks.
+                                    A responsive Todo List app built with React and Tailwind CSS. It allows users to create, edit, and delete tasks, with offline support via local storage, ensuring todos are saved and reappear when the app is reopened.
                                 </h1>
                                 <div className="buttons flex gap-5 py-10">
                                     <button className='font-semibold transition ease-in-out duration-300 px-5 py-2 text-white border border-white hover:text-neutral-800 hover:bg-white rounded-full'><a href="https://github.com/Tabishkhan18/ToDo-Manager">Github</a></button>
