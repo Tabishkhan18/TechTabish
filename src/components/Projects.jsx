@@ -17,9 +17,9 @@ const Projects = () => {
                                     Spotify Clone
                                 </h1>
                                 <h1 className="uppercase text-neutral-300 leading-relaxed text-lg">
-                                    Tech used: Html, Css, JavaScript, React and Tailwind
+                                    Html, Css, JavaScript, React and Tailwind
                                 </h1>
-                                <h1 className="pt-5 text-neutral-500 leading-relaxed text-lg">
+                                <h1 className="pt-5 text-neutral-500 leading-relaxed text-sm">
                                     This is a Spotify clone website. Created with responsive web designing techniques.
                                 </h1>
                                 <div className="buttons flex gap-5 py-10">
@@ -43,9 +43,9 @@ const Projects = () => {
                                     Todo Manager
                                 </h1>
                                 <h1 className="uppercase text-neutral-300 leading-relaxed text-lg">
-                                    Tech used: Html, Css, JavaScript, React and Tailwind
+                                    Html, Css, JavaScript, React and Tailwind
                                 </h1>
-                                <h1 className="pt-5 text-neutral-500 leading-relaxed text-lg">
+                                <h1 className="pt-5 text-neutral-500 leading-relaxed text-sm">
                                     A Todo Manager is used to Create, Edit and Delete multiple tasks.
                                 </h1>
                                 <div className="buttons flex gap-5 py-10">
@@ -61,21 +61,21 @@ const Projects = () => {
                         <div className='flex lg:flex-row flex-col lg:items-center justify-around'>
                             <div className="skills p-10 lg:ps-5 lg:w-1/4">
                                 <h1 className="heading pb-5 uppercase text-white font-semibold text-xl">
-                                    Calculator
+                                    Triangle Calculator
                                 </h1>
                                 <h1 className="uppercase text-neutral-300 leading-relaxed text-lg">
-                                    Tech used: Html, JavaScript and Tailwind
+                                    Html, JavaScript and Tailwind
                                 </h1>
-                                <h1 className="pt-5 text-neutral-500 leading-relaxed text-lg">
-                                    A clean user friendly UI like iOS Calculator. Created using basic HTML, Tailwind and JavaScript.
+                                <h1 className="pt-5 text-neutral-500 leading-relaxed text-sm">
+                                    This website enables users to create triangles by providing inputs and calculates properties such as area, perimeter, and semi-perimeter. It uses JavaScript events and canvas funtions like drawing lines and calculate angles.
                                 </h1>
                                 <div className="buttons flex gap-5 py-10">
-                                    <button className='font-semibold transition ease-in-out duration-300 px-5 py-2 text-white border border-white hover:text-neutral-800 hover:bg-white rounded-full'><a href="https://github.com/Tabishkhan18/Calculator">Github</a></button>
-                                    <button className='font-semibold transition ease-in-out duration-300 px-5 py-2 text-neutral-800 border border-neutral-800 bg-white hover:text-white hover:bg-neutral-800 hover:border-white rounded-full'><a href="https://tabishkhan18.github.io/Calculator">Live</a></button>
+                                    <button className='font-semibold transition ease-in-out duration-300 px-5 py-2 text-white border border-white hover:text-neutral-800 hover:bg-white rounded-full'><a href="https://github.com/Tabishkhan18/Triangle-Calculator">Github</a></button>
+                                    <button className='font-semibold transition ease-in-out duration-300 px-5 py-2 text-neutral-800 border border-neutral-800 bg-white hover:text-white hover:bg-neutral-800 hover:border-white rounded-full'><a href="https://tabishkhan18.github.io/Triangle-Calculator">Live</a></button>
                                 </div>
                             </div>
                             <div className="aboutimage lg:py-10 lg:pe-5">
-                                <img src="./calculator.png" alt="image" className='lg:w-[50rem] rounded-lg' />
+                                <img src="./triangle-calculator.png" alt="image" className='lg:w-[50rem] rounded-lg' />
                             </div>
                         </div>
                     </div>

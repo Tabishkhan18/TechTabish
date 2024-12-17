@@ -8,11 +8,12 @@ const About = () => {
           <h1 className="heading uppercase text-white font-semibold text-xl pb-10">
             My Story
           </h1>
-          <h1 className="pt-5 text-neutral-500 lg:pe-52 leading-relaxed text-lg">
-            Hello there, My name is Tabish Khan, I am 22 years old. A passionate full stack web developer and a graphic designer. I live in small town Shahabad, district Hardoi, Uttar Pradesh, India. Completed Bachelors of Computer Applications, in 2024, from MJPR University.
+          <h1 className="pt-5 font-thin text-neutral-500 lg:pe-52 leading-relaxed text-lg">
+            Hello there, My name is Tabish Khan, 22 years old. A passionate full stack web developer and a graphic designer. I belong from a town in Uttar Pradesh. Completed my bachelors degree of computer applications in 2024, from MJPR University, bareilly.
           </h1>
-          <h1 className="pt-5 text-neutral-500 lg:pe-52 leading-relaxed text-lg">
-            I have a strong knowledge of Front-End, specially in web designing and dynamic components to increase user experience. Along side i have expertise in JavaScript and modern framework and libraries like Node.js and React.js.
+          <h1 className="pt-5 font-thin text-neutral-500 lg:pe-52 leading-relaxed text-lg">
+            I hold a strong understanding of Frontend, specially in web designing and dynamic components in order to enhance a user experience.
+            Alongside I have expertise in JavaScript and Modern frameworks like Node.js & React.js.
           </h1>
         </div>
         <div className="aboutimage lg:w-1/3 py-20 lg:py-0" >
