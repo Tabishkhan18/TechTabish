@@ -67,7 +67,7 @@ const Projects = () => {
                                     Html, JavaScript and Tailwind
                                 </h1>
                                 <h1 className="pt-5 text-neutral-500 leading-relaxed text-sm">
-                                    This website enables users to create triangles by providing inputs and calculates properties such as area, perimeter, and semi-perimeter. It uses JavaScript events and canvas funtions like drawing lines and calculate angles.
+                                    This website enables users to create triangles by providing inputs and calculates properties such as area, perimeter, and semi-perimeter. It uses JavaScript events and canvas functions like drawing lines and calculate angles.
                                 </h1>
                                 <div className="buttons flex gap-5 py-10">
                                     <button className='font-semibold transition ease-in-out duration-300 px-5 py-2 text-white border border-white hover:text-neutral-800 hover:bg-white rounded-full'><a href="https://github.com/Tabishkhan18/Triangle-Calculator">Github</a></button>
