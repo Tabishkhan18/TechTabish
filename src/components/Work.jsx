@@ -4,7 +4,7 @@ import WorkCard from "./WorkCard";
 const Work = () => {
 
   return (
-    <div className="bg-neutral-900 flex flex-col justify-center h-lvh" id="work">
+    <div className="bg-neutral-900 flex flex-col justify-center" id="work">
 
       <h1 className="heading text-center lg:py-20 py-10 uppercase text-white font-semibold text-xl">
         Work
