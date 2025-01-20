@@ -55,7 +55,7 @@ const Contact = () => {
         <ScrollUp />
       </div>
       <div className="footer flex justify-between md:p-10 p-5">
-        <h1 className='text-neutral-500 md:text-md text-xs font-semibold flex gap-1'>&copy;<HiMiniCodeBracket style={{ fontSize: '1rem', fontWeight: 'bold' }}/>TechTabish 2024</h1>
+        <h1 className='text-neutral-500 md:text-md text-xs font-semibold flex gap-1'>&copy;<HiMiniCodeBracket style={{ fontSize: '1rem', fontWeight: 'bold' }}/>TechTabish 2025.</h1>
         <h1 className='text-neutral-500 md:text-md text-xs font-semibold'><a href="mailto:tabishkhan1811@gmail.com" className='cursor-pointer'>tabishkhan1811@gmail.com</a></h1>
       </div>
     </div>

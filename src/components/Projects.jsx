@@ -1,86 +1,153 @@
 import React from 'react'
+import { TbBrandGithubFilled } from "react-icons/tb";
+import { BsArrowUpRight } from "react-icons/bs";
 
 const Projects = () => {
+    const links = {
+        github: {
+            spotify: "https://github.com/Tabishkhan18/SpotifyClone",
+            todo: "https://github.com/Tabishkhan18/ToDo-Manager",
+            triangle: "https://github.com/Tabishkhan18/Triangle-Calculator",
+        },
+        live: {
+            spotify: "https://tabishkhan18.github.io/SpotifyClone",
+            todo: "https://tabishkhan18.github.io/ToDo-Manager",
+            triangle: "https://tabishkhan18.github.io/Triangle-Calculator",
+        }
+    }
+
     return (
         <div id='projects'>
-            <div className="project bg-neutral-50 lg:py-36 py-20">
-                <h1 className="heading  text-center lg:pb-36 pb-20 uppercase text-neutral-800 font-semibold text-xl">
+            <div className="project bg-neutral-900 flex flex-col py-10">
+                <h1 className="heading text-center lg:py-14 pb-10 uppercase text-white font-semibold text-xl">
                     Projects
                 </h1>
 
-                <div className="projectCards flex flex-col lg:gap-36 gap-10 lg:px-36 px-5">
-
-                    <div className='projectcard rounded-xl bg-neutral-800'>
-                        <div className='flex lg:flex-row flex-col lg:items-center justify-around'>
-                            <div className="skills p-10 lg:ps-5 lg:w-1/4">
-                                <h1 className="heading pb-5 uppercase text-white font-semibold text-xl">
-                                    Spotify Clone
+                {/* Spotify */}
+                <div className='projectcard bg-neutral-900 border-b border-neutral-700'>
+                    <div className='flex h-lvh lg:flex-row flex-col lg:items-center justify-evenly'>
+                        <div className="skills lg:py-5 lg:pt-5 pt-5 px-5 lg:ps-5 lg:w-1/4">
+                            <h1 className="heading py-10 uppercase text-white font-semibold text-xl">
+                                Spotify Clone
+                            </h1>
+                            <div className="flex flex-wrap gap-4">
+                                <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
+                                    Html
                                 </h1>
-                                <h1 className="uppercase text-neutral-300 leading-relaxed text-lg">
-                                    Html, Css, JavaScript, React and Tailwind
+                                <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
+                                    Tailwind
                                 </h1>
-                                <h1 className="pt-5 text-neutral-500 leading-relaxed text-sm">
-                                    A fully responsive Spotify clone website built with React and styled using Tailwind CSS. This design closely replicates the original Spotify interface, showcasing advanced web design techniques for a seamless and visually appealing experience.
+                                <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
+                                    JavaScript
                                 </h1>
-                                <div className="buttons flex gap-5 py-10">
-                                    <button className='font-semibold transition ease-in-out duration-300 px-5 py-2 text-white border border-white hover:text-neutral-800 hover:bg-white rounded-full'><a href="https://github.com/Tabishkhan18/SpotifyClone">Github</a></button>
-                                    <button className='font-semibold transition ease-in-out duration-300 px-5 py-2 text-neutral-800 border border-neutral-800 bg-white hover:text-white hover:bg-neutral-800 hover:border-white rounded-full'><a href="https://tabishkhan18.github.io/SpotifyClone">Live</a></button>
-                                </div>
+                                <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
+                                    React
+                                </h1>
                             </div>
-                            <div className="aboutimage lg:py-10 lg:pe-5">
-                                <img src="./spotify.png" alt="image" className='lg:w-[50rem] rounded-lg' />
+                            <h1 className="pt-5 text-neutral-400 leading-relaxed text-sm">
+                                <span className='text-white font-semibold italic'>Spotify Clone</span> – a fully responsive React application <span className='text-white font-semibold italic'>styled with Tailwind CSS,</span> designed to replicate the original Spotify interface using advanced front-end techniques for a <span className='text-white font-semibold italic'>smooth user experience</span> and appealing visuals.
+                            </h1>
+                            <div className="buttons flex gap-5 py-10">
+                                <a href={links.github.spotify}>
+                                    <button className='font-semibold transition ease-in-out duration-300 bg-black text-white hover:text-black hover:bg-white rounded-full p-5 border border-neutral-500'>
+                                        <TbBrandGithubFilled size={25} />
+                                    </button>
+                                </a>
+                                <a href={links.live.spotify}>
+                                    <button className='font-semibold transition ease-in-out duration-300 bg-white text-black hover:text-white hover:bg-black rounded-full p-5 relative right-10'>
+                                        <BsArrowUpRight size={25} />
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="aboutimage py-10 lg:pe-5">
+                            <img src="./spotify.png" alt="image" className='lg:w-[50rem] rounded-lg' />
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* Todo Manager */}
+                <div className='projectcard bg-neutral-900 border-y border-neutral-700'>
+                    <div className='flex h-lvh lg:flex-row flex-col-reverse lg:items-center justify-evenly'>
+                        <div className="aboutimage py-10 lg:pe-5">
+                            <img src="./todo.png" alt="image" className='lg:w-[50rem] rounded-lg' />
+                        </div>
+                        <div className="skills lg:py-5 lg:pt-10 pt-5 px-5 lg:ps-5 lg:w-1/4">
+                            <h1 className="heading py-10 uppercase text-white font-semibold text-xl">
+                                Todo Manager
+                            </h1>
+                            <div className="flex flex-wrap gap-4">
+                                <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
+                                    Html
+                                </h1>
+                                <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
+                                    Tailwind
+                                </h1>
+                                <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
+                                    JavaScript
+                                </h1>
+                                <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
+                                    React
+                                </h1>
+                            </div>
+                            <h1 className="pt-5 text-neutral-400 leading-relaxed text-sm">
+                                <span className='text-white font-semibold italic'>Todo Manager</span> – a responsive React-based website styled with Tailwind CSS, enabling <span className='text-white font-semibold italic'>task creation, editing, and deletion</span>. Integrated with <span className='text-white font-semibold italic'>local storage for offline functionality</span>, it ensures todos are preserved and reloaded seamlessly upon reopening the site.</h1>
+                            <div className="buttons flex gap-5 py-10">
+                                <a href={links.github.todo}>
+                                    <button className='font-semibold transition ease-in-out duration-300 bg-black text-white hover:text-black hover:bg-white rounded-full p-5 border border-neutral-500'>
+                                        <TbBrandGithubFilled size={25} />
+                                    </button>
+                                </a>
+                                <a href={links.live.todo}>
+                                    <button className='font-semibold transition ease-in-out duration-300 bg-white text-black hover:text-white hover:bg-black rounded-full p-5 relative right-10'>
+                                        <BsArrowUpRight size={25} />
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div className='projectcard rounded-xl bg-neutral-800'>
-                        <div className='flex lg:flex-row flex-col-reverse lg:items-center justify-around'>
-                            <div className="aboutimage lg:py-10 lg:pe-5">
-                                <img src="./todo.png" alt="image" className='lg:w-[50rem] rounded-lg' />
-                            </div>
-                            <div className="skills p-10 lg:ps-5 lg:w-1/4">
-                                <h1 className="heading pb-5 uppercase text-white font-semibold text-xl">
-                                    Todo Manager
-                                </h1>
-                                <h1 className="uppercase text-neutral-300 leading-relaxed text-lg">
-                                    Html, Css, JavaScript, React and Tailwind
-                                </h1>
-                                <h1 className="pt-5 text-neutral-500 leading-relaxed text-sm">
-                                    A responsive Todo List app built with React and Tailwind CSS. It allows users to create, edit, and delete tasks, with offline support via local storage, ensuring todos are saved and reappear when the app is reopened.
-                                </h1>
-                                <div className="buttons flex gap-5 py-10">
-                                    <button className='font-semibold transition ease-in-out duration-300 px-5 py-2 text-white border border-white hover:text-neutral-800 hover:bg-white rounded-full'><a href="https://github.com/Tabishkhan18/ToDo-Manager">Github</a></button>
-                                    <button className='font-semibold transition ease-in-out duration-300 px-5 py-2 text-neutral-800 border border-neutral-800 bg-white hover:text-white hover:bg-neutral-800 hover:border-white rounded-full'><a href="https://tabishkhan18.github.io/ToDo-Manager">Live</a></button>
-                                </div>
-                            </div>
 
-                        </div>
-                    </div>
-
-                    <div className='projectcard rounded-xl bg-neutral-800'>
-                        <div className='flex lg:flex-row flex-col lg:items-center justify-around'>
-                            <div className="skills p-10 lg:ps-5 lg:w-1/4">
-                                <h1 className="heading pb-5 uppercase text-white font-semibold text-xl">
-                                    Triangle Calculator
+                {/* Triangle Calculator */}
+                <div className='projectcard bg-neutral-900 border-t border-neutral-700'>
+                    <div className='flex h-lvh lg:flex-row flex-col lg:items-center justify-evenly'>
+                        <div className="skills lg:py-5 lg:pt-10 pt-5 px-5 lg:ps-5 lg:w-1/4">
+                            <h1 className="heading py-10 uppercase text-white font-semibold text-xl">
+                                Triangle Calculator
+                            </h1>
+                            <div className="flex flex-wrap gap-4">
+                                <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
+                                    Html
                                 </h1>
-                                <h1 className="uppercase text-neutral-300 leading-relaxed text-lg">
-                                    Html, JavaScript and Tailwind
+                                <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
+                                    Tailwind
                                 </h1>
-                                <h1 className="pt-5 text-neutral-500 leading-relaxed text-sm">
-                                    This website enables users to create triangles by providing inputs and calculates properties such as area, perimeter, and semi-perimeter. It uses JavaScript events and canvas functions like drawing lines and calculate angles.
+                                <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
+                                    JavaScript
                                 </h1>
-                                <div className="buttons flex gap-5 py-10">
-                                    <button className='font-semibold transition ease-in-out duration-300 px-5 py-2 text-white border border-white hover:text-neutral-800 hover:bg-white rounded-full'><a href="https://github.com/Tabishkhan18/Triangle-Calculator">Github</a></button>
-                                    <button className='font-semibold transition ease-in-out duration-300 px-5 py-2 text-neutral-800 border border-neutral-800 bg-white hover:text-white hover:bg-neutral-800 hover:border-white rounded-full'><a href="https://tabishkhan18.github.io/Triangle-Calculator">Live</a></button>
-                                </div>
                             </div>
-                            <div className="aboutimage lg:py-10 lg:pe-5">
-                                <img src="./triangle-calculator.png" alt="image" className='lg:w-[50rem] rounded-lg' />
+                            <h1 className="pt-5 text-neutral-400 leading-relaxed text-sm">
+                                <span className='text-white font-semibold italic'>Triangle Calculator</span> – a responsive website created using JavaScript, allowing users to <span className='text-white font-semibold italic'>create triangles</span> by inputting values and calculating properties like <span className='text-white font-semibold italic'>area, perimeter, and angles</span> with interactive <span className='text-white italic font-semibold'>event handling</span> and <span className='text-white italic font-semibold'>canvas drawing functions.</span>
+                            </h1>
+                            <div className="buttons flex gap-5 py-10">
+                                <a href={links.github.triangle}>
+                                    <button className='font-semibold transition ease-in-out duration-300 bg-black text-white hover:text-black hover:bg-white rounded-full p-5 border border-neutral-500'>
+                                        <TbBrandGithubFilled size={25} />
+                                    </button>
+                                </a>
+                                <a href={links.live.triangle}>
+                                    <button className='font-semibold transition ease-in-out duration-300 bg-white text-black hover:text-white hover:bg-black rounded-full p-5 relative right-10'>
+                                        <BsArrowUpRight size={25} />
+                                    </button>
+                                </a>
                             </div>
                         </div>
+                        <div className="aboutimage py-10 lg:pe-5">
+                            <img src="./triangle-calculator.png" alt="image" className='lg:w-[50rem] rounded-lg' />
+                        </div>
                     </div>
-
-
                 </div>
 
             </div>
