@@ -64,7 +64,7 @@ const Menu = () => {
             </li>
           </ul>
         </div>
-        <h1 className='text-neutral-500 mt-80 text-xs font-semibold flex justify-center gap-1'>&copy;<HiMiniCodeBracket style={{ fontSize: '1rem', fontWeight: 'bold' }} />TechTabish 2024</h1>
+        <h1 className='text-neutral-500 mt-60 text-xs font-semibold flex justify-center gap-1'>&copy;<HiMiniCodeBracket style={{ fontSize: '1rem', fontWeight: 'bold' }} />TechTabish 2025.</h1>
       </div>
 
     </div>
