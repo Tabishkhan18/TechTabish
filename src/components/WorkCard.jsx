@@ -14,7 +14,7 @@ const WorkCard = (props) => {
             </div>
           </div>
         </div>
-        <div className=" flex lg:flex-row flex-col ps-5 lg:ps-0 justify-start items-start lg:items-center text-xl lg:gap-28 font-mono w-2/3">
+        <div className=" flex lg:flex-row flex-col px-5 lg:ps-0 justify-start items-start lg:items-center text-xl lg:gap-28 font-mono w-2/3">
           <div className="company lg:w-1/3 text-base lg:text-xl">
             {props.company}
           </div>
